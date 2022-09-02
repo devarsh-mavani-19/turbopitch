@@ -1,6 +1,7 @@
-import { auth } from '../config/firebase'
+import { auth, db } from '../config/firebase'
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, setPersistence, browserLocalPersistence } from "firebase/auth";
 import { updateUser, getUserCredits } from './firestore';
+import { doc, setDoc } from 'firebase/firestore';
 
 export const signInUser = () => {
     return new Promise((resolve, reject) => {
@@ -64,15 +65,29 @@ export const resolveTokenAndCredits = (user) => {
     return new Promise((resolve, reject) => {
         user.getIdToken(true)
                 .then(r => {
-                    getUserCredits(user.email)
-                    .then(credits=> {
-                        console.log(credits)
-                        resolve({user, token: r, credits})
+                    setDoc(doc(db, `users/${user.email}`), {
+                        name: user.displayName,
+                        profile: user.photoURL,
+                        email: user.email,
+                        token: r
+                    }, {merge: true})
+                    .then(() => {
+                        getUserCredits(user.email)
+                        .then(credits=> {
+                            console.log(credits)
+                            resolve({user, token: r, credits})
+                        })
+                        .catch(e => {
+                            console.log(e)
+                            reject(e)
+                        })
                     })
-                    .catch(e => {
-                        console.log(e)
-                        reject(e)
+                    .catch(er => {
+                        console.log(er)
+                        reject(er)
                     })
+
+                    
                 }).catch(e => {
                     reject(e)
                 })

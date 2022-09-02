@@ -3,6 +3,7 @@ import { collection, doc, setDoc, getDoc } from "firebase/firestore";
 
 export const updateUser = async (user, token) => {
     try {
+        console.log(user.email)
         await setDoc(doc(db, `users`, user.email), {
             name: user.displayName,
             profile: user.photoURL,
