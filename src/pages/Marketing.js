@@ -33,14 +33,14 @@ const Marketing = () => {
 
                 {
                     success ? (
-                        <div class="alert alert-success" role="alert">
+                        <div className="alert alert-success" role="alert">
                             Your previous transaction was successful
                         </div>
                     ) : null
                 }
                 {
                     canceled ? (
-                        <div class="alert alert-danger" role="alert">
+                        <div className="alert alert-danger" role="alert">
                             Your previous transaction failed.
                         </div>
                     ) : null

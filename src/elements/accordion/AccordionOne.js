@@ -33,7 +33,7 @@ const AccordionOne = ({customStyle}) => {
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body>We are always there for you. We provide free technical support for 1 month. We assure you don't face any problems</Card.Body>
+                    <Card.Body>We are always there for you. We provide free technical support for 1 month. We assure you don&apos;t face any problems</Card.Body>
                 </Accordion.Collapse>
             </Card>
 

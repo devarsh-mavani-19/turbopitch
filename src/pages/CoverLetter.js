@@ -56,9 +56,9 @@ const CoverLetter = () => {
                             <input type="text" aria-label="First name" style={{width: 'auto'}} className="" placeholder="Website Design" />
                             <h2 className="title w-600 mb-0 p-0 mx-3">Freelance work</h2>
                         </div>
-                        <div class="form-floating " style={{marginTop: "5rem"}}>
-                            <textarea class="form-control" style={{minHeight: "200px"}} placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                            <label for="floatingTextarea">Description</label>
+                        <div className="form-floating " style={{marginTop: "5rem"}}>
+                            <textarea className="form-control" style={{minHeight: "200px"}} placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label htmlFor="floatingTextarea">Description</label>
                         </div>
                     </div>
                 </div>

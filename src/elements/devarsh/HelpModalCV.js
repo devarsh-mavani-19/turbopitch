@@ -5,7 +5,7 @@ import { AiFillCloseCircle } from 'react-icons/ai'
 function MyTable () {
     const rows = [
         {
-            do: 'Mention important points only',
+            do: `Mention important points only`,
             do_ex: `We are looking for someone to build a website for a small coffee shop/bar and promote it. Please send your offers and estimated delivery time`,
             dont: 'Don\'t copy and paste description from freelancing website',
             dont_ex: `We are looking for someone to build a website for a small coffee shop/bar and promote it. Please send your offers and estimated delivery time`,
@@ -16,8 +16,8 @@ function MyTable () {
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                 <TableRow>
-                    <TableCell><h6>Do's</h6></TableCell>
-                    <TableCell align="right"><h6>Don'ts</h6></TableCell>
+                    <TableCell><h6>Do&apos;s</h6></TableCell>
+                    <TableCell align="right"><h6>Don&apos;ts</h6></TableCell>
                 </TableRow>
                 </TableHead>
                 <TableBody>

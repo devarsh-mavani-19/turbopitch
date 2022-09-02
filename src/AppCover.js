@@ -61,8 +61,8 @@ export default function AppCover({app}) {
                 }}>
                     <div className='container' style={{outline: 'none'}}>
                         <div className='d-flex justify-content-center align-items-center' style={{height: '100vh'}}>
-                            <div class="spinner-border text-primary" style={{width: '5rem', height: '5rem'}} role="status">
-                            <span class="visually-hidden">Loading...</span>
+                            <div className="spinner-border text-primary" style={{width: '5rem', height: '5rem'}} role="status">
+                            <span className="visually-hidden">Loading...</span>
                             </div>
                             <Blury />
                         </div>

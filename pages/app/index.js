@@ -132,7 +132,7 @@ export default function App() {
                 <div className='container my-4'>
                     {
                         !authState.isAuth && !authState.isLoading ? (
-                            <div class="alert alert-danger" role="alert">
+                            <div className="alert alert-danger" role="alert">
                                 You are not logged in. Please login to use the app.
                             </div>
                         ) : null
@@ -148,7 +148,7 @@ export default function App() {
                             <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} aria-label="First name" style={{width: 'auto'}} className="" placeholder="Website Design" />
                             <h2 className="title w-600 mx-4">Freelance work</h2>
                         </div>
-                        <div class="form-floating ">
+                        <div className="form-floating ">
                             <textarea className=" " value={description} onChange={(e) => setDescription(e.target.value)} style={{minHeight: "200px"}} placeholder="Website building from scratch, including website design, content writing, relevant images/graphics, Logo design" id="floatingTextarea"></textarea>
                             {/* <label for="floatingTextarea" className="">Description</label> */}
                         </div>

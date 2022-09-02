@@ -17,7 +17,7 @@ const CalltoActionEight = () => {
                                 <h2 className="title">{callToActionData.title}</h2>
                                 <h6 className="subtitle">{callToActionData.subtitle}</h6>
                                 <div className="call-to-btn text-center mt--30">
-                                    <a className="btn-default btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                    <a className="btn-default btn-icon" target="_blank" rel='noreferrer' href="https://themeforest.net/checkout/from_item/33571911?license=regular">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
                                 </div>
                             </div>
                         </div>

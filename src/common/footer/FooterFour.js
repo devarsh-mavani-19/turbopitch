@@ -105,7 +105,7 @@ const FooterFour = () => {
                         </div>
                     </div>
                 </div>
-                <NewsletterOne newsletetrStyle="rn-newsletter-default" extraClass="border-top-bottom" />
+                <NewsletterOne newsletetrStyle="rn-newsletter-default" extraclassName="border-top-bottom" />
                 <div className="copyright-area copyright-style-one no-border">
                     <div className="container">
                         <div className="row align-items-center">
