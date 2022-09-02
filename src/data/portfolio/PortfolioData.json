@@ -1,0 +1,429 @@
+[
+    {
+        "id": 1,
+        "portfolioImage": "./images/portfolio/crypto_app.jpg",
+        "image": "images/portfolio/crypto_app.jpg",
+        "title": "Crypto App UI/UX Design",
+        "subtitle": "UI/UX Design built in figma",
+        "date": "30 May 2021",
+        "client": "JSG App Developers",
+        "category": "design",
+        "awards": [],
+        "excerpt": "Beautiful UI Design of crypto currency app.",
+        "body": ["<p>We built crypto currency mobile application UI/UX in figma software. We have team of experts that can make best UI/UX design based on your need.</p> <br /> <p>JSG Developers build these design within 24 hours. Our designers also use advanced tools like photoshop, illustrator, and other adobe tools to make best UI for different needs.</p> "],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/portfolio"
+        },
+        "largeImage": "./images/portfolio/crypto_app.jpg",
+        "subContent": {
+            "title": "Crypto App UI/UX Design",
+            "subtext": "We built crypto currency mobile application UI/UX in figma software. We have team of experts that can make best UI/UX design based on your need."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+
+    {
+        "id": 2,
+        "portfolioImage": "./images/portfolio/MusicWebsiteLandingPage.jpg",
+        "image": "images/portfolio/MusicWebsiteLandingPage.jpg",
+        "title": "Aesthetic headphones landing page design ",
+        "subtitle": "Headphones company landing page",
+        "date": "01 March 2021",
+        "client": "-",
+        "category": "design",
+        "awards": [],
+        "excerpt": "Beautiful UI Design of Headphones company landing page",
+        "body": ["<p>A glimpse of what our UI/UX designers can build. </p>. We have expertise in creating modern and minimalist UI/UX design. The Aesthetic look and feel will stick out your product and attract more customers."],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/portfolio"
+        },
+        "largeImage": "images/portfolio/MusicWebsiteLandingPage.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+
+    {
+        "id": 3,
+        "portfolioImage": "./images/portfolio/stock_market.png",
+        "image": "images/portfolio/stock_market.png",
+        "title": "Stock market app Design",
+        "subtitle": "UI/UX Design for stock market app concept",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "design",
+        "awards": [],
+        "excerpt": "Beautiful UI Design of Stock market app concept",
+        "body": ["<p>Having a good UI/UX design is very important for a stock market application. Our designers built this application with simplicity in mind.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/portfolio"
+        },
+        "largeImage": "images/portfolio/stock_market.png",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+
+    {
+        "id": 4,
+        "portfolioImage": "./images/portfolio/rapid_doc.png",
+        "image": "images/portfolio/rapid_doc.png",
+        "title": "Scan & PDF",
+        "subtitle": "Document Scanner android app",
+        "date": "01 March 2021",
+        "client": "Rudraa Digital Entertainment",
+        "category": "Web & Apps",
+        "awards": [],
+        "excerpt": "An android application to scan documents.",
+        "body": ["<p>We built this application to solve the problem of scanning documents and storing them digitally. There were lots of flaws in existing application. We solved those and added PDF Tools. There are about 15 PDF tools simplifies your life.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/portfolio"
+        },
+        "largeImage": "images/portfolio/rapid_doc.png",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/rapid_doc.png"
+        }
+    },
+
+    {
+        "id": 5,
+        "portfolioImage": "./images/portfolio/indian_wedding.jpg",
+        "image": "images/portfolio/indian_wedding.jpg",
+        "title": "India wedding card maker",
+        "subtitle": "Easy to use Indian wedding card making application for android.",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "Web & Apps",
+        "awards": [],
+        "excerpt": "An android application to simplify process of making wedding cards.",
+        "body": ["<p>Wedding card app was built to ease the process of making wedding card invitations or wedding greetings. App allows users to create wedding cards and customize it by adding overlays and images and choose from over 50 fonts.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/portfolio"
+        },
+        "largeImage": "images/portfolio/indian_wedding.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+
+    {
+        "id": 6,
+        "portfolioImage": "./images/portfolio/halloween_cards.jpg",
+        "image": "images/portfolio/halloween_cards.jpg",
+        "title": "Halloween card maker",
+        "subtitle": "Easy to use Halloween card making application for android.",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "Web & Apps",
+        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "excerpt": "Design beautiful apps.",
+        "body": ["<p>Halloween card app was built to ease the process of making Halloween card invitations or Halloween greetings. App allows users to create Halloween cards and customize it by adding overlays and images and choose from over 50 fonts.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/halloween_cards.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/halloween_cards.jpg"
+        }
+    },
+
+    {
+        "id": 7,
+        "portfolioImage": "./images/portfolio/music_player.png",
+        "image": "images/portfolio/music_player.png",
+        "title": "Music Player application",
+        "subtitle": "Aesthetic music player app",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "Web & Apps",
+        "awards": [],
+        "excerpt": "Simple and easy to use music player app for android.",
+        "body": ["<p>There are lots of music player apps out there but hardly few of them have aesthetic UI. So we built an app that makes listening to music fun</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/music_player.png",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+
+    {
+        "id": 8,
+        "portfolioImage": "./images/portfolio/mental_maths.jpg",
+        "image": "images/portfolio/mental_maths.jpg",
+        "title": "Mental Maths App",
+        "subtitle": "Mathemagician - Mental maths at play",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "Web & Apps",
+        "awards": [""],
+        "excerpt": "Learn maths in a fun way.",
+        "body": ["<p>No one loves maths. but what if we make it fun. We built a game which will sharpen brain of users. write the correct answer for a given maths problem in limited time.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/mental_maths.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/crypto_app.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+    {
+        "id": 9,
+        "portfolioImage": "./images/portfolio/ecommerce.png",
+        "image": "images/portfolio/ecommerce.png",
+        "title": "Online clothes store",
+        "subtitle": "Beautiful online store to sell clothes",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "Web & Apps",
+        "awards": [],
+        "excerpt": "Online store to buy cloths.",
+        "body": ["<p>There are lots of ecommerce website to buy clothes. But the one having good look and feel will stand out from others. we hire best designers and developers around globe to get the job done with perfection.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/ecommerce.png",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/ecommerce.png",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+    {
+        "id": 10,
+        "portfolioImage": "./images/portfolio/baby_logo.jpg",
+        "image": "images/portfolio/baby_logo.jpg",
+        "title": "Baby Shower Card Maker",
+        "subtitle": "Beautiful online store to sell clothes",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "logo",
+        "awards": [],
+        "excerpt": "Online store to buy cloths.",
+        "body": ["<p>There are lots of ecommerce website to buy clothes. But the one having good look and feel will stand out from others. we hire best designers and developers around globe to get the job done with perfection.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/baby_logo.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/baby_logo.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+    {
+        "id": 11,
+        "portfolioImage": "./images/portfolio/halloween_logo.jpg",
+        "image": "images/portfolio/halloween_logo.jpg",
+        "title": "Halloween card maker",
+        "subtitle": "Beautiful online store to sell clothes",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "logo",
+        "awards": [],
+        "excerpt": "Online store to buy cloths.",
+        "body": ["<p>There are lots of ecommerce website to buy clothes. But the one having good look and feel will stand out from others. we hire best designers and developers around globe to get the job done with perfection.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/halloween_logo.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/halloween_logo.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    },
+    {
+        "id": 12,
+        "portfolioImage": "./images/portfolio/invtation_logo.jpg",
+        "image": "images/portfolio/invtation_logo.jpg",
+        "title": "Invitation Card Maker",
+        "subtitle": "Beautiful online store to sell clothes",
+        "date": "01 March 2021",
+        "client": "JSG Developers",
+        "category": "logo",
+        "awards": [],
+        "excerpt": "Online store to buy cloths.",
+        "body": ["<p>There are lots of ecommerce website to buy clothes. But the one having good look and feel will stand out from others. we hire best designers and developers around globe to get the job done with perfection.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/invtation_logo.jpg",
+        "subContent": {
+            "title": "Digital Marketing.",
+            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent2": {
+            "title": "App Development.",
+            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "subContent3": {
+            "title": "Solution.",
+            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/invtation_logo.jpg",
+            "imageTwo": "images/portfolio/MusicWebsiteLandingPage.jpg",
+            "imageThree": "images/portfolio/stock_market.png"
+        }
+    }
+]

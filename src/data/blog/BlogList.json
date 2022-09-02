@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "How much do website design and development cost in 2022?.",
+        "image": "images/blog/website_blog.jpg",
+        "text": "Devarsh Mavani",
+        "largeImage": "images/blog/website_blog.jpg",
+        "author": ["Devarsh Mavani"],
+        "date": "01 August 2022",
+        "view": "70 views",
+        "categories": ["Website", "Development", "Design"],
+        "excerpt": "A brief idea of how much do website designing cost in 2022",
+        "body":  ["<p>Website is an online address for your business. Website increases company's credibility. Research shows that people trust brands having a strong online presence more than others. Customers wants looks for trusthworthy-ness, legitimacy in a company. Having a modern website can easily make an impact. Your website is source of information for your business. </p>"
+        , "<h2>How much it cost business to have a website?</h2>"
+        , "<p>A website can cost anywhere between a 1000$ to 100000$+. Cost of website depends on its complexity and various factors. For example: Having a static website will be cheaper than dynamic one. Adding CMS, Social integrations, maps, etc. will increase the cost.</p>"
+        , "<p>Informational website for small businesses having 5-10 pages can cost $1000 - $5000. While ecommerce website can cost about $5000 - $50000 or more. Having a database driven website ( also known as web-application) costs $6000 - $70000</p>"
+        , "<p>Hiring freelancers to do the job will be more economical. You can expect 2-4 times more cheaper than having it built with agency. But the catch is that you have to manage everything. Freelancers are good at what they do but don't have time and energy to interact with others (Content makers, marketing, designers, etc.). If you have time and energy to manage freelancers and have knowledge about technology than it is most econmoical option.</p>"
+        , "<p>Third option is to use website builders. They cost as low as $0 and can go up $500+ per month. We can design our own website using website builders by dragging and dropping. While this seems best option, the catch is that there isn't much customizability. So unless need a preety simple website, always go for agency or freelancers. There are many website builders like wix, Squarespace, GoDaddy, etc.</p>"
+        , "<p>To conclude, there are basically 3 options. 1. Choose agency and invest your time and energy else where. </br> 2. Choose freelancers: Perfection but have to waste your time in managing people. 3. Website builders: most economical. But have to invest time in learing those tools and still might not have desired results. </p>"],
+        "tags": ["Website", "Development", "Design", "UI Design", "UX Design"]
+    },
+    {
+        "id": 2,
+        "title": "3 reasons your business needs a fresh new logo.",
+        "image": "images/blog/logo_blog.jpg",
+        "text": "Devarsh Mavani",
+        "largeImage": "images/blog/logo_blog.jpg",
+        "author": ["Devarsh Mavani"],
+        "date": "02 August 2022",
+        "view": "70 views",
+        "categories": ["UX Design", "Logo"],
+        "excerpt": "A guide to logo design for your business.",
+        "body":  [
+            "<p>Having a good logo design might not seem an important thing especially when you have dozens of other business operations. One of the most integral part of growing your brand is a good logo design. And here is why, When promoting your business or running ads, the first thing that catches attention of viewer is company's logo and branding. There are hundreds of coffee shops but starbucks is at top of game. One of the reason is its logo and branding. People usually don't realize that but thats what makes an impression in peoples mind.</p>"
+        , "<p><h2>Here are top 5 reasons your business needs a fresh new logo </h2></p>"
+        , "<h3>1. Logo is attention graber</h3><p>People's attention span is very less. You have a few seconds (or even less) to make a good impression on users mind. Youngsters like fresh & modern content. Gone are the days of flashy branding and logos of company</p>"
+        , "<h3>2. Stands you out from competition</h3><p>Let's be honest we all are tired of same old uncle with large pizza in hand standing on most of the pizza shops. All the pizza shop logo looks very similar to one another. Business owners need to come up with different ideas (or let us do that) that stands out from competition</p>"
+        , "<h3>3. Your logo should be memorable</h3><p>Logos should be idetifiable. When people think of your company, the logo should be first thing that comes to mind. A good logo is Aesthetically pleasing. Good logo immediately reminds of positve aspects of your brand.</p>"
+        , "<p>If you like the article and looking for any type of design or development services, feel free to reach us out.</p>"],
+        "tags": ["Minimal", "Logo", "Design", "Modern"]
+    },
+    {
+        "id": 3,
+        "title": "What is Wordpress development?",
+        "image": "images/blog/wordpress_blog.jpg",
+        "text": "Devarsh Mavani",
+        "largeImage": "images/blog/wordpress_blog.jpg",
+        "author": ["Devarsh Mavani"],
+        "date": "02 August 2022",
+        "view": "70 views",
+        "categories": ["Wordpress", "Website", "Development"],
+        "excerpt": "An introduction to Wordpress development for business owners.",
+        "body":  [
+            "<p>As an owner researching about website solutions for your business, I am sure this is not first time you heard the word \"Wordpress\". In this article we will give short introduction about wordpress for non-technical person. We I have tried to cover details that are relevant from an owners point of view. So let's get into it.</p>"
+        , "<p><h3>What is wordpress?</h3>Biggest misconception is that wordpress is a website builder. Surely it is, but it's actually way more than that. Wordpress is a Content Management System (CMS). A Content Management System is a basically a storage for all type of data. For example: If your are starting a business to store clothes, you surely want to store all your customers purchase data right? Or suppose you are starting an online library, Then you want to store all the books information somewhere. That's where wordpress kicks in. Wordpress allows to store all the data in a specific format. So for customers data, wordpress can store name, email, etc. For books it can store author, book url, rating, etc. Along with this wordpress also allows to build websites. It has lots of customizability, and it is an <b>open source technology</b> which means it is free to modify its source code. This makes it more popular among developers because there are plugins for preety much everything you may want in a website.</p>"
+        , "<h3>Why is wordpress so popular</h3><p>Like I said previously, Wordpress allows use of 3rd party plugins and themes. This makes it lot more customizable. For example there are many SEO plugins in wordpress. These plugins makes job easier for content writer since they can get tsuggestions. Another great example is ecommerce development. There are many free and paid ecommerce plugin for wordpress. Most famous one being <b>woocommerce</b>.  It allows payment gateway integration, Invoiving, Taxing, etc. </p>"
+        , "<h3>As a business owner, is wordpress website a good choice.</h3><p>Absolutely, it is. There are many big business that uses wordpress. For example micorosoft news, BBC, Techcruch, they all opt-ed for wordpress. There is also market place to get free and paid themes for wordpress. And there are experts who knows how to develop a custom wordpress theme. Wordpress can save you both time and money. Wordpress community is so large that you can always find help for preety much anything. </p>"
+        , "<h3>How much do wordpress development cost in 2022?</h3><p>Wordpress development can cost you from $800 upto $5000. More complex ecommerce website with 100s of products can cost you more. While small informational websites with 10-20 can be easily done within $1000 - $1500. Blogging website often cost more than that. Along with a website SEO is also an important factor for business. Good developers know what to do with those tools and how to use them.</p>"
+        , "<p>If you are looking to have a wordpress website for your business, feel free to reach us out.</p>"],
+        "tags": ["Minimal", "Logo", "Design", "Modern"]
+    }
+]

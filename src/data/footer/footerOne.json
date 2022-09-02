@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "title": "Create your next website and grow your business."
+    },
+
+    {
+        "id": 2,
+        "title": "Services",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "About",
+                "url": "/about-us"
+            },
+            {
+                "id": 2,
+                "text": "Portfolio",
+                "url": "/portfolio"
+            },
+            {
+                "id": 3,
+                "text": "Contact",
+                "url": "/contact"
+            },
+            {
+                "id": 4,
+                "text": "Services",
+                "url": "/#services"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "title": "Solutions",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Wordpress Development",
+                "url": "/blog-details/3"
+            },
+            {
+                "id": 2,
+                "text": "Website Design",
+                "url": "/blog-details/1"
+            },
+            {
+                "id": 3,
+                "text": "Logo Design",
+                "url": "/blog-details/2"
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "title": "Company",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Pricing",
+                "url": "/pricing"
+            },
+            {
+                "id": 2,
+                "text": "Team",
+                "url": "/team"
+            },
+            {
+                "id": 3,
+                "text": "Advance Tab",
+                "url": "/advance-tab"
+            },
+            {
+                "id": 4,
+                "text": "Services",
+                "url": "/#services"
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "title": "Resources",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "About",
+                "url": "/about-us"
+            },
+            {
+                "id": 2,
+                "text": "Portfolio",
+                "url": "/portfolio"
+            },
+            {
+                "id": 3,
+                "text": "Contact",
+                "url": "/contact"
+            },
+            {
+                "id": 4,
+                "text": "Services",
+                "url": "/#services"
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "title": "Our Social Media",
+        "subtitle": "We love to share on social media. Feel free to reach us out"
+    }
+]
