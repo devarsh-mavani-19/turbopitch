@@ -37,10 +37,17 @@ export const storePurchase = async (paymentIntent, email, status, session_id, st
                             let userObj = await transaction.get(docRef)
                             console.log(userObj.data().credits, creditsToAdd)
                             let credits = userObj.data().credits
-                            transaction.update(db.doc(`users/${email}`), {
-                                credits: (credits + creditsToAdd)
-                            })
-                            return credits + creditsToAdd
+                            if (!credits) {
+                                transaction.update(db.doc(`users/${email}`), {
+                                    credits: creditsToAdd
+                                })
+                            } else {
+                                transaction.update(db.doc(`users/${email}`), {
+                                    credits: (credits + creditsToAdd)
+                                })
+                            }
+                            
+                            return credits ? credits + creditsToAdd : creditsToAdd
                         })
 
                         resolve(newCredits)
