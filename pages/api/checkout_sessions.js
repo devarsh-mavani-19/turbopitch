@@ -3,6 +3,7 @@ import { verifyUser } from '../../serverutils/verifyUser';
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 export default async function handler(req, res) {
+    console.log(process.env.TESTKEY)
     if (req.method === "POST") {
         try {
             let user = await verifyUser(req, res, null)
