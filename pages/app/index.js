@@ -56,7 +56,7 @@ export default function App() {
             } else {
                 // Send an http request to server
                 axios({
-                    url: (process.env.server_url ? process.env.server_url : 'http://localhost:3000/') + '/api/cv/generate',
+                    url: process.env.server_url + '/api/cv/generate',
                     method: 'POST',
                     data: {
                         idToken: authState.token,
