@@ -56,7 +56,7 @@ export default function App() {
             } else {
                 // Send an http request to server
                 axios({
-                    url: process.env.server_url + '/api/cv/generate',
+                    url: process.env.NEXT_PUBLIC_SERVER_URL + '/api/cv/generate',
                     method: 'POST',
                     data: {
                         idToken: authState.token,
