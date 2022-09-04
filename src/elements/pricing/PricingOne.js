@@ -91,7 +91,11 @@ const PricingOne = () => {
                                     <button className="btn-default">Purchase Now</button>
                                 </form>
                                 ) :  (
-                                    <button className="btn-default" onClick={onFormSubmit}>Purchase Now</button>
+                                    <form method='POST' action='/api/checkout_sessions'>
+                                    <input type={'text'} name='idToken' value={auth.token} hidden />
+                                    <input type={'text'} name='pricing' value={'price_1LbrCvH6sRgnLBOdMx3srIKd'} hidden />
+                                    <button className="btn-default">Purchase Now</button>
+                                    </form>
                                 )
                             }
                             
