@@ -5,8 +5,8 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 export default async function handler(req, res) {
     if (req.method === "POST") {
         try {
-            let user = await verifyUser(req, res, null)
-            let email = user.email
+            // let user = await verifyUser(req, res, null)
+            let email = user ? user.email : "dev@gmail.com"
             const session = await stripe.checkout.sessions.create({
             line_items: [
                 {

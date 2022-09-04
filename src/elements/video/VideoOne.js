@@ -12,7 +12,7 @@ const PopupContent =  {
 function VideoOne() {
     const [toggler, setToggler] = useState(false);
     return (
-        <div className="row row--15">
+        <div className="row row--15 d-flex justify-content-center align-items-center">
             <div className="col-lg-6 col-md-6 col-12 mt--30">
                 <div className="video-popup icon-center">
                     <div className="thumbnail">
@@ -23,9 +23,9 @@ function VideoOne() {
                     </div>
                     <FsLightbox toggler={ toggler } sources={PopupContent.popupLink} />
                 </div>
-            </div>  
+            </div>
 
-            <div className="col-lg-6 col-md-6 col-12 mt--30">
+            {/* <div className="col-lg-6 col-md-6 col-12 mt--30">
                 <div className="video-popup icon-center">
                     <div className="thumbnail">
                         <img className="radius-small" src={`${PopupContent.image}`} alt="Corporate Image" />
@@ -35,7 +35,7 @@ function VideoOne() {
                     </div>
                     <FsLightbox toggler={ toggler } sources={PopupContent.popupLink} />
                 </div>
-            </div> 
+            </div>  */}
         </div>
     )
 }

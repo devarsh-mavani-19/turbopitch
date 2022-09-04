@@ -20,6 +20,7 @@ import TestimonialOne from '../elements/testimonial/TestimonialOne';
 import PricingOne from '../elements/pricing/PricingOne';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import VideoOne from '../elements/video/VideoOne';
 
 
 const Marketing = () => {

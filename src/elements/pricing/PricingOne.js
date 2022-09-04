@@ -1,10 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
 import { FiCheck } from "react-icons/fi";
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { notificationAction } from '../../../store/notification';
 
 const PricingOne = () => {
     let auth = useSelector(state => state.auth)
+    let dispatch = useDispatch()
+    const onFormSubmit = (e) => {
+        dispatch(notificationAction.showNotification({
+            message: 'Please Login To Continue',
+            type: 'error'
+        }))
+    }
     return (
         <div className="row row--30">
             {/* Start PRicing Table Area  */}
@@ -32,11 +40,18 @@ const PricingOne = () => {
                             </ul>
                         </div>
                         <div className="pricing-footer">
-                            <form method='POST' action='/api/checkout_sessions'>
-                                <input type={'text'} name='idToken' value={auth.token} hidden />
-                                <input type={'text'} name='pricing' value={'price_1LbrBrH6sRgnLBOdB8nGvyNx'} hidden />
-                                <button className="btn-default btn-border" type='submit'>Purchase Now</button>
-                            </form>
+                            {
+                                auth.isAuth ? (
+                                    <form method='POST' action='/api/checkout_sessions'>
+                                        <input type={'text'} name='idToken' value={auth.token} hidden />
+                                        <input type={'text'} name='pricing' value={'price_1LbrBrH6sRgnLBOdB8nGvyNx'} hidden />
+                                        <button className="btn-default btn-border" type='submit'>Purchase Now</button>
+                                    </form>
+                                ) : (
+                                    <button className="btn-default btn-border" type='submit' onClick={onFormSubmit}>Purchase Now</button>
+                                )
+                            }
+                            
                         </div>
                     </div>
                 </div>
@@ -68,11 +83,18 @@ const PricingOne = () => {
                             </ul>
                         </div>
                         <div className="pricing-footer">
-                            <form method='POST' action='/api/checkout_sessions'>
-                                <input type={'text'} name='idToken' value={auth.token} hidden />
-                                <input type={'text'} name='pricing' value={'price_1LbrCvH6sRgnLBOdMx3srIKd'} hidden />
-                                <button className="btn-default">Purchase Now</button>
-                            </form>
+                            {
+                                auth.isAuth ? (
+                                <form method='POST' action='/api/checkout_sessions'>
+                                    <input type={'text'} name='idToken' value={auth.token} hidden />
+                                    <input type={'text'} name='pricing' value={'price_1LbrCvH6sRgnLBOdMx3srIKd'} hidden />
+                                    <button className="btn-default">Purchase Now</button>
+                                </form>
+                                ) :  (
+                                    <button className="btn-default" onClick={onFormSubmit}>Purchase Now</button>
+                                )
+                            }
+                            
                             
                         </div>
                     </div>
@@ -105,11 +127,18 @@ const PricingOne = () => {
                             </ul>
                         </div>
                         <div className="pricing-footer">
-                            <form method='POST' action='/api/checkout_sessions'>
-                                <input type={'text'} name='idToken' value={auth.token} hidden />
-                                <input type={'text'} name='pricing' value={'price_1LbrDJH6sRgnLBOdax4H5GQ2'} hidden />
-                                <button className="btn-default btn-border">Purchase Now</button>
-                            </form>
+                            {
+                                auth.isAuth ? (
+                                    <form method='POST' action='/api/checkout_sessions'>
+                                        <input type={'text'} name='idToken' value={auth.token} hidden />
+                                        <input type={'text'} name='pricing' value={'price_1LbrDJH6sRgnLBOdax4H5GQ2'} hidden />
+                                        <button className="btn-default btn-border">Purchase Now</button>
+                                    </form>
+                                ) : (
+                                    <button className="btn-default btn-border" onClick={onFormSubmit}>Purchase Now</button>
+                                )
+                            }
+
                         </div>
                     </div>
                 </div>
