@@ -37,7 +37,7 @@ export default function PricingModal({open, handleClose}) {
                         </div>
                         <form method='POST' action='/api/checkout_sessions'>
                                 <input type={'text'} name='idToken' value={auth.token} hidden />
-                                <input type={'text'} name='pricing' value={'price_1LbrBrH6sRgnLBOdB8nGvyNx'} hidden />
+                                <input type={'text'} name='pricing' value={process.env.NEXT_PUBLIC_PRICE_5} hidden />
                                 <button className="btn-default btn-border" type='submit'>Purchase Now</button>
                         </form>
                     </div>
@@ -60,7 +60,7 @@ export default function PricingModal({open, handleClose}) {
                         </div>
                         <form method='POST' action='/api/checkout_sessions'>
                                 <input type={'text'} name='idToken' value={auth.token} hidden />
-                                <input type={'text'} name='pricing' value={'price_1LbrCvH6sRgnLBOdMx3srIKd'} hidden />
+                                <input type={'text'} name='pricing' value={process.env.NEXT_PUBLIC_PRICE_10} hidden />
                                 <button className="btn-default">Purchase Now</button>
                         </form>
                     </div>
@@ -83,7 +83,7 @@ export default function PricingModal({open, handleClose}) {
                         </div>
                         <form method='POST' action='/api/checkout_sessions'>
                                 <input type={'text'} name='idToken' value={auth.token} hidden />
-                                <input type={'text'} name='pricing' value={'price_1LbrDJH6sRgnLBOdax4H5GQ2'} hidden />
+                                <input type={'text'} name='pricing' value={process.env.NEXT_PUBLIC_PRICE_20} hidden />
                                 <button className="btn-default btn-border">Purchase Now</button>
                         </form>
                     </div>

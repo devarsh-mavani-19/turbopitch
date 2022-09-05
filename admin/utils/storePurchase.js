@@ -4,11 +4,12 @@ const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 
 const { getFirestore } = require('firebase-admin/firestore')
 
-const prod_to_credits = {
-    "prod_MKWEVIr3xxkIOU": 50,
-    "prod_MKWFbQeatsO7bO": 110,
-    "prod_MKWF8YfIHDMGsY": 240
+let prod_to_credits = {
+    
 }
+prod_to_credits[`${process.env.NEXT_PUBLIC_PRODUCT_5}`] = 50
+prod_to_credits[`${process.env.NEXT_PUBLIC_PRODUCT_10}`] = 110
+prod_to_credits[`${process.env.NEXT_PUBLIC_PRODUCT_20}`] = 240
 
 export const storePurchase = async (paymentIntent, email, status, session_id, stripe_customer, country) => {
     return new Promise(async (resolve, reject) => {
