@@ -87,6 +87,23 @@ const Marketing = () => {
                 {/* End Slider Area  */}
 
                 <Separator />
+                    <div className="rn-service-area rn-section-gap">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <SectionTitle
+                                        textAlign = "text-center"
+                                        radiusRounded = ""
+                                        subtitle = "How it works"
+                                        title = "A Video demonstration of how it works"
+                                        description = ""
+                                        />
+                                </div>
+                            </div>
+                            <iframe width="1250" height="703" src="https://www.youtube.com/embed/u0lilCFDnxw" title="TurboPitch Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                <Separator />
 
                 {/* Start Service Area  */}
                 <div className="rn-service-area rn-section-gap">
