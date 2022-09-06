@@ -113,11 +113,11 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                     }
                                     
                                 </div>
-                                <div className="mobile-menu-bar ml--5 d-block d-lg-none">
+                                {/* <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* <Darkmode /> */}
                             </div>  
                         </div>

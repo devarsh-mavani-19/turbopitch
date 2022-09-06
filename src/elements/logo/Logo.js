@@ -6,8 +6,8 @@ const Logo = ({image, image2}) => {
     return(
         <div className="logo">
             <a href={"/"}>
-                <img className="logo-light" src={image} alt="Corporate Logo" style={{height: '100%', maxHeight: 'none'}} />
-                <img className="logo-dark" src={image2} alt="Corporate Logo" style={{height: '100%', maxHeight: 'none'}} />
+                <img className="logo-light" src={image} alt="Corporate Logo"  />
+                <img className="logo-dark" src={image2} alt="Corporate Logo"  />
             </a>
         </div>
     )
