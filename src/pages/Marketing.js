@@ -100,7 +100,7 @@ const Marketing = () => {
                                         />
                                 </div>
                             </div>
-                            <iframe width="1250" height="703" src="https://www.youtube.com/embed/u0lilCFDnxw" title="TurboPitch Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="1250" height="703" src="https://www.youtube.com/embed/u0lilCFDnxw" title="TurboPitch Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                 <Separator />
