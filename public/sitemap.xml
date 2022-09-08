@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jsgdevelopers.tech</loc>
+    <loc>https://turbopitch.live</loc>
   </url>
   <url>
-    <loc>https://jsgdevelopers.tech/about-us</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/blog-details/1</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/blog-details/2</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/blog-details/3</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/blogs</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/category/design</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/category/development</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/category/logo</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/category/ux-design</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/category/website</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/category/wordpress</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/contact</loc>
-  </url>
-  <url>
-    <loc>https://jsgdevelopers.tech/portfolio</loc>
+    <loc>https://turbopitch.live/app</loc>
   </url>
 </urlset>
