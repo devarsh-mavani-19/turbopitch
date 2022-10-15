@@ -150,21 +150,21 @@ const Marketing = () => {
 
 
                 <div className="rwt-pricing-area rn-section-gap">
-                        <div className="container">
-                            <div className="row mb--40 mb_sm--0">
-                                <div className="col-lg-12">
-                                        <SectionTitle
-                                            textAlign = "text-center"
-                                            radiusRounded = ""
-                                            subtitle = "Pricing"
-                                            title = "That's a bargain."
-                                            description = ""
-                                        />
-                                </div>
+                    <div className="container">
+                        <div className="row mb--40 mb_sm--0">
+                            <div className="col-lg-12">
+                                    <SectionTitle
+                                        textAlign = "text-center"
+                                        radiusRounded = ""
+                                        subtitle = "Pricing"
+                                        title = "That's a bargain."
+                                        description = ""
+                                    />
                             </div>
-                            <PricingOne />
                         </div>
+                        <PricingOne />
                     </div>
+                </div>
 
                 <Separator />
 

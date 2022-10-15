@@ -2,7 +2,7 @@ import React from 'react';
 
 const BrandList = [
     {
-        image: './images/brand/brand-01.png'
+        image: './images/brand/brand_upwork.png'
     },
     {
         image: './images/brand/brand-02.png'
