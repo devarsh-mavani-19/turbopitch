@@ -3,7 +3,7 @@ import { credential } from 'firebase-admin';
 const { initializeApp } = require('firebase-admin/app');
 const admin = require('firebase-admin')
 const firebaseConfig = {
-    apiKey: "AIzaSyAjBsGdqFMCt9yR2JpbT9HGZFpLlQEdgPc",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "auto-pitch-generator.firebaseapp.com",
     projectId: "auto-pitch-generator",
     storageBucket: "auto-pitch-generator.appspot.com",
